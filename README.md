@@ -26,3 +26,4 @@ Inspiration
 Guides
 
 sudo apt install python3-pip 
+https://github.com/pyauth/pyotp 
