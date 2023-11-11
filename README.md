@@ -23,3 +23,6 @@ Inspiration
 2. https://github.com/eddmann/pico-2fa-totp
 3. 
 
+Guides
+
+sudo apt install python3-pip 
