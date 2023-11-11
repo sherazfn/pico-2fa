@@ -16,3 +16,10 @@ Software
 4. Display 2FA
 5. Send 2FA as keyboard string with button press
 
+
+
+Inspiration
+1. https://eddmann.com/posts/building-a-2fa-totp-generator-using-a-raspberry-pi-pico-and-micropython/
+2. https://github.com/eddmann/pico-2fa-totp
+3. 
+
