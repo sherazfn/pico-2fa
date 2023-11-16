@@ -1,0 +1,22 @@
+import pyotp
+import time
+import configparser
+
+# Read secret key from the configuration file
+config = configparser.ConfigParser()
+config.read('secrets.ini')
+secret_key = config['OTP']['secret_key']
+
+# Generate a TOTP object
+totp = pyotp.TOTP(secret_key)
+
+# Main loop to continuously generate and display OTP
+while True:
+    # Generate OTP
+    current_otp = totp.now()
+
+    # Display the OTP
+    print(f'Current OTP: {current_otp}')
+
+    # Wait for 30 seconds (or the time step specified in your TOTP configuration)
+    time.sleep(30)
