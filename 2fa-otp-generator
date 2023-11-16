@@ -3,6 +3,7 @@ import time
 import configparser
 
 # Read secret key from the configuration file
+# The config file is secrets.ini
 config = configparser.ConfigParser()
 config.read('secrets.ini')
 secret_key = config['OTP']['secret_key']
