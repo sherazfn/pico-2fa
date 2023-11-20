@@ -1,3 +1,13 @@
+# This is the main program
+# It will be used to start on the pico wh
+# It will initialize the display 
+# It will initialize the pico as a HID device
+# It will call for the 2FA code
+# 
+
+
+
+
 import subprocess
 import time
 
